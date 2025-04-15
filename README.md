@@ -8,11 +8,11 @@ To write a program to predict the type of species of the Iris flower using the S
 
 ## Algorithm
 ```
-1.Initialize Parameters: Set initial weights (theta) to zero.
-2.Compute Predictions: Calculate predictions using the sigmoid function on the weighted inputs.
-3.Calculate Cost: Compute the cost using the cross-entropy loss function.
-4.Update Weights: Adjust weights by subtracting the gradient of the cost with respect to each weight.
-5.Repeat: Repeat steps 2–4 for a set number of iterations or until convergence is achieved.
+1. Import Necessary Libraries and Load Data.
+2. Split Dataset into Training and Testing Sets.
+3. Train the Model Using Stochastic Gradient Descent (SGD).
+4. Make Predictions and Evaluate Accuracy.
+5. Generate Confusion Matrix.
 ```
 
 ## Program:
